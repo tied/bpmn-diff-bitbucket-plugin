@@ -5,11 +5,11 @@ const rootDir = path.resolve(__dirname, '..');
 const srcDir = path.join(rootDir, 'src');
 
 const I18N_SRC_DIR = path.join(srcDir, 'main/resources/i18n');
-const FRONTEND_SRC_DIR = path.join(srcDir, 'main/bpmn-diff');
+const FRONTEND_SRC_DIR = path.join(srcDir, 'main/bpmn-diff-plugin');
 const FRONTEND_OUTPUT_DIR = path.join(rootDir, 'target', 'classes');
 
 // Plugin key needs to match the one provide in atlassian-plugin.xml file
-const PLUGIN_KEY = 'ru.domclick.nsk.bpmn-diff-plugin';
+const PLUGIN_KEY = 'ru.domclick.bitbucket.bpmn-diff-plugin';
 
 // Load i18n properties files
 const I18N_FILES = glob.sync('**/*.properties', {

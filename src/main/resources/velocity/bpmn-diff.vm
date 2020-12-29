@@ -1,8 +1,8 @@
 <html>
 <head>
     $webResourceManager.requireResourcesForContext("ru.domclick.bitbucket.bpmn-diff-plugin:bpmn-diff-plugin-resources")
-    <meta name="decorator" content="bitbucket.focused.xlarge"/>
-    <title>$i18n.getText("ru.domclick.bitbucket.bpmn-diff-servlet.title")</title>
+    <meta name="decorator" content="atl.general"/>
+    <title>BPMN Visual Diff</title>
 </head>
 <body>
 <div class="content">

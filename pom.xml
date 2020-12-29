@@ -95,7 +95,6 @@
             <scope>provided</scope>
         </dependency>
 
-
         <!-- Page bootstrapper dependencies -->
         <dependency>
             <groupId>com.atlassian.plugins</groupId>
@@ -271,7 +270,7 @@
         <fe.cmd.install>install --no-progress</fe.cmd.install>
         <fe.cmd.build>build:prod</fe.cmd.build>
         <fe.cmd.build.dev>build:dev</fe.cmd.build.dev>
-        <frontend.working.directory>src/main/bpmn-diff</frontend.working.directory>
+        <frontend.working.directory>src/main/bpmn-diff-plugin</frontend.working.directory>
         <cse.version>1.2.3</cse.version>
 
         <sal.version>4.0.0</sal.version>
